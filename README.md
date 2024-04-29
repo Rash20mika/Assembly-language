@@ -1,4 +1,4 @@
-![image](https://github.com/Rash20mika/Assembly-language/assets/168262492/9bc38993-d22d-442d-a423-e529fd80d249)![image](https://github.com/Rash20mika/Assembly-language/assets/168262492/4a8049de-d994-456c-bcfb-baadefbaae0d)![de9beb71-a5d1-41d8-ade6-a2006d0416c8](https://github.com/Rash20mika/Assembly-language/assets/168262492/0600953b-8ad0-4857-8084-d57e68a75bce)![image](https://github.com/Rash20mika/Assembly-language/assets/168262492/787a0532-48ed-4179-855b-8c1519005e4f)COMPUTER ORGANIZATION
+COMPUTER ORGANIZATION
 ASSEMBLY LANGUAGE
       At first let us discuss about the programming language and where we are using those languages.
       A programming language is a formal language comprising a set of instructions used to produce various kinds of output. It allows humans to communicate instructions to computers in a manner that they can understand and execute. Programming languages consist of syntax rules and semantics that determine how instructions are structured and interpreted. These instructions can be used to create software applications, websites, algorithms, and more. Programming languages vary widely in their complexity, purpose and application domain and new languages contribute to emerge as technology evolves.
@@ -16,9 +16,7 @@ Now let us see few more mnemonics,
 
 
 
-![WhatsApp Image 2024-04-29 at 10 25 58 PM](https://github.com/Rash20mika/Assembly-language/assets/168262492/5d7a6aab-618a-4bda-b398-490512d58ba5)
-
-
+![WhatsApp Image 2024-04-29 at 10 25 58 PM](https://github.com/Rash20mika/Assembly-language/assets/168262492/920ce9bc-aa0b-49b1-b812-ffe5d07faead)
 
 
 Let us see few examples using these mnemonics in the instruction.
