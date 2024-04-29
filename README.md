@@ -1,5 +1,8 @@
 COMPUTER ORGANIZATION
+
 ASSEMBLY LANGUAGE
+
+      
       At first let us discuss about the programming language and where we are using those languages.
       A programming language is a formal language comprising a set of instructions used to produce various kinds of output. It allows humans to communicate instructions to computers in a manner that they can understand and execute. Programming languages consist of syntax rules and semantics that determine how instructions are structured and interpreted. These instructions can be used to create software applications, websites, algorithms, and more. Programming languages vary widely in their complexity, purpose and application domain and new languages contribute to emerge as technology evolves.
 And now let us discuss the assembly language.
