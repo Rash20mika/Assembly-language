@@ -3,13 +3,13 @@ COMPUTER ORGANIZATION
 ASSEMBLY LANGUAGE
 
       
-      At first let us discuss about the programming language and where we are using those languages.
-      A programming language is a formal language comprising a set of instructions used to produce various kinds of output. It allows humans to communicate instructions to computers in a manner that they can understand and execute. Programming languages consist of syntax rules and semantics that determine how instructions are structured and interpreted. These instructions can be used to create software applications, websites, algorithms, and more. Programming languages vary widely in their complexity, purpose and application domain and new languages contribute to emerge as technology evolves.
+At first let us discuss about the programming language and where we are using those languages.
+A programming language is a formal language comprising a set of instructions used to produce various kinds of output. It allows humans to communicate instructions to computers in a manner that they can understand and execute. Programming languages consist of syntax rules and semantics that determine how instructions are structured and interpreted. These instructions can be used to create software applications, websites, algorithms, and more. Programming languages vary widely in their complexity, purpose and application domain and new languages contribute to emerge as technology evolves.
 And now let us discuss the assembly language.
-     Assembly language is a low-level programming language that provides a way to communicate directly with a computer's hardware. It uses mnemonic codes and symbols that represent specific machine instructions. It has direct interaction with the hardware of the system. Unlike high-level programming languages, assembly language offers minimal abstraction from the underlying hardware. Programmers must have a deep understanding of the system architecture and the behavior of individual instructions. 
+Assembly language is a low-level programming language that provides a way to communicate directly with a computer's hardware. It uses mnemonic codes and symbols that represent specific machine instructions. It has direct interaction with the hardware of the system. Unlike high-level programming languages, assembly language offers minimal abstraction from the underlying hardware. Programmers must have a deep understanding of the system architecture and the behavior of individual instructions. 
 Let us see how we can write the code in assembly language,
 At first we should know about the mnemonic in assembly language. Then what is mnemonics? Let us see now,
-     A mnemonic is a symbolic representation of an instruction or operation. Mnemonics are designed to be more human-readable and easier to remember than the binary machine code instructions they represent. Each mnemonic corresponds to a specific machine instruction or operation that the processor can execute.
+A mnemonic is a symbolic representation of an instruction or operation. Mnemonics are designed to be more human-readable and easier to remember than the binary machine code instructions they represent. Each mnemonic corresponds to a specific machine instruction or operation that the processor can execute.
 Example:
 Let us consider the instruction,
 ADD R3,R2,R1
@@ -57,19 +57,19 @@ sw $t0, sum: Stores the final sum in the sum variable.
 
 Real world Applications using Assembly language
 Operating Systems
-      Assembly language is often used in the development of operating systems, as it provides low-level access to the system's hardware and is capable of executing critical operations that are not possible with higher-level languages.
+Assembly language is often used in the development of operating systems, as it provides low-level access to the system's hardware and is capable of executing critical operations that are not possible with higher-level languages.
 Device Drivers
-      Assembly language is used to develop device drivers, which are software components that allow a computer to interact with specific hardware devices.
+Assembly language is used to develop device drivers, which are software components that allow a computer to interact with specific hardware devices.
 Embedded Systems
-      Assembly language is widely used in the development of embedded systems, such as microcontrollers and other specialized devices that have limited processing power and memory.
+Assembly language is widely used in the development of embedded systems, such as microcontrollers and other specialized devices that have limited processing power and memory.
 Performance-critical applications
-      Assembly language can be used to optimize performance-critical sections of code in high-performance applications, such as video games, simulations, and scientific computing.
+Assembly language can be used to optimize performance-critical sections of code in high-performance applications, such as video games, simulations, and scientific computing.
 Reverse Engineering
-      Assembly language is often used in reverse engineering, as it provides a detailed understanding of the underlying machine code and can be used to analyze malware, debug software, and study the internal workings of operating systems and other software.
+Assembly language is often used in reverse engineering, as it provides a detailed understanding of the underlying machine code and can be used to analyze malware, debug software, and study the internal workings of operating systems and other software.
 
 Current Trends in the Assembly Language Industry
      
-     With cybersecurity threats increasing, there's an increased emphasis on using assembly language for security assessment and developing more secure firmware and low-level software components.
-     The Internet of Things (IoT) sector drives demand for assembly language expertise to develop highly efficient and optimized firmware for microcontrollers and embedded devices.
-      A specialized but growing interest in retro computing and game development for vintage systems is leading to renewed interest in assembly language programming for these platforms.
-     There's a trend towards integrating assembly language blocks within high-level language code (e.g., C or C++) for crucial performance sections, merging efficiency with developer productivity.
+With cybersecurity threats increasing, there's an increased emphasis on using assembly language for security assessment and developing more secure firmware and low-level software components.
+The Internet of Things (IoT) sector drives demand for assembly language expertise to develop highly efficient and optimized firmware for microcontrollers and embedded devices.
+A specialized but growing interest in retro computing and game development for vintage systems is leading to renewed interest in assembly language programming for these platforms.
+There's a trend towards integrating assembly language blocks within high-level language code (e.g., C or C++) for crucial performance sections, merging efficiency with developer productivity.
