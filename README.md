@@ -4,12 +4,49 @@ ASSEMBLY LANGUAGE
 
       
 At first let us discuss about the programming language and where we are using those languages.
+
 A programming language is a formal language comprising a set of instructions used to produce various kinds of output. It allows humans to communicate instructions to computers in a manner that they can understand and execute. Programming languages consist of syntax rules and semantics that determine how instructions are structured and interpreted. These instructions can be used to create software applications, websites, algorithms, and more. Programming languages vary widely in their complexity, purpose and application domain and new languages contribute to emerge as technology evolves.
 And now let us discuss the assembly language.
-Assembly language is a low-level programming language that provides a way to communicate directly with a computer's hardware. It uses mnemonic codes and symbols that represent specific machine instructions. It has direct interaction with the hardware of the system. Unlike high-level programming languages, assembly language offers minimal abstraction from the underlying hardware. Programmers must have a deep understanding of the system architecture and the behavior of individual instructions. 
+
+Assembly language is a low-level programming language that provides a way to communicate directly with a computer's hardware. It uses mnemonic codes and symbols that represent specific machine instructions. It has direct interaction with the hardware of the system. Unlike high-level programming languages, assembly language offers minimal abstraction from the underlying hardware. Programmers must have a deep understanding of the system architecture and the behavior of individual instructions. It has many types of assembly languages,
+
+Some other examples of assembly languages include:
+
+x86 Assembly Language: Used for Intel and AMD x86 architecture processors, commonly found in PCs and servers.
+
+ARM Assembly Language: Used for ARM architecture processors, commonly found in mobile devices, embedded systems, and IoT devices.
+
+PowerPC Assembly Language: Used for PowerPC architecture processors, formerly used in Macintosh computers and gaming consoles like the PlayStation 3.
+
+SPARC Assembly Language: Used for SPARC architecture processors, commonly found in Sun Microsystems and Oracle servers.
+
+68k Assembly Language: Used for Motorola 68000 series processors, popular in older personal computers and gaming consoles.
+
+MIPS Assembly language
+
+In this we are mainly focusing about the mips code
+
+What is MIPS assembly language?
+
+Some other examples of assembly languages include:
+
+RISC Architecture:
+
+MIPS is a Reduced Instruction Set Computing (RISC) architecture. It emphasizes a small, simple set of instructions that execute in a single clock cycle, which makes it relatively straightforward to learn and understand.
+
+Instruction Types:
+MIPS instructions can be classified into several types:
+
+R-type instructions: Arithmetic and logical operations between registers.
+I-type instructions: Operations with immediate values (constants).
+J-type instructions: Jump instructions for control flow.
+
+It uses branching and jumping by the instruction beq, bge, blt,bneq and j for jump statements.
+
 Let us see how we can write the code in assembly language,
 At first we should know about the mnemonic in assembly language. Then what is mnemonics? Let us see now,
 A mnemonic is a symbolic representation of an instruction or operation. Mnemonics are designed to be more human-readable and easier to remember than the binary machine code instructions they represent. Each mnemonic corresponds to a specific machine instruction or operation that the processor can execute.
+
 Example:
 Let us consider the instruction,
       ADD R3,R2,R1
@@ -152,6 +189,7 @@ Assembly language can be used to optimize performance-critical sections of code 
 Reverse Engineering
 
 Assembly language is often used in reverse engineering, as it provides a detailed understanding of the underlying machine code and can be used to analyze malware, debug software, and study the internal workings of operating systems and other software.
+
 
 Current Trends in the Assembly Language Industry
      
