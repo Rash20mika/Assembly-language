@@ -12,7 +12,7 @@ At first we should know about the mnemonic in assembly language. Then what is mn
 A mnemonic is a symbolic representation of an instruction or operation. Mnemonics are designed to be more human-readable and easier to remember than the binary machine code instructions they represent. Each mnemonic corresponds to a specific machine instruction or operation that the processor can execute.
 Example:
 Let us consider the instruction,
-ADD R3,R2,R1
+      ADD R3,R2,R1
 Here ADD is the mnemonic which is used to add two registers and store in the third register.
 R1,R2,R3 are registers. 
 Now let us see few more mnemonics,
@@ -24,22 +24,28 @@ Now let us see few more mnemonics,
 
 Let us see few examples using these mnemonics in the instruction.
 
- ADD R2,R3,#10
+         ADD R2,R3,#10
+         
 In this instruction adds the number 5 to the contents of register R3 and puts the result into register R2. The number sign is not the only way to denote the Immediate addressing mode. In some assembly languages, the Immediate addressing mode is indicated in the OP code mnemonic. For example, the previous Add instruction may be written as,
 
- ADDI R2,R3,10
+         ADDI R2,R3,10
+         
 The suffix I in the mnemonic ADDI states that the second source operand is given in the Immediate addressing mode.
 
- and $rd, $rs, $rt
+        and $rd, $rs, $rt
+        
 Performs a bitwise AND operation on the values in registers $rs and $rt, storing the result in register $rd.
 
- or $rd, $rs, $rt
+       or $rd, $rs, $rt
+       
 Performs a bitwise OR operation on the values in registers $rs and $rt, storing the result in register $rd.
 
- sw R1,R2
+       sw R1,R2
+       
 Stores the value R1 into R2
 
- lw R1,R2
+       lw R1,R2
+       
 Load the word R2 in R1
  
 
