@@ -64,14 +64,71 @@ Let us see the simple mips program to sum the first 10 natural numbers.
 Here’s Explanation for the above code
 
 li $t0, 0: Initializes register $t0 to 0, which will hold the sum.
+
 li $t1, 1: Initializes register $t1 to 1, which will be the loop counter.
+
 loop label: Marks the beginning of the loop.
+
 add $t0, $t0, $t1: Adds the loop counter to the sum.
+
 addi $t1, $t1, 1: Increments the loop counter.
+
 bgt $t1, 10, exit: Branches to exit if the loop counter is greater than 10.
+
 j loop: Jumps back to the loop label to repeat the loop.
+
 exit label: Marks the end of the program.
+
 sw $t0, sum: Stores the final sum in the sum variable.
+
+Let us consider the code for odd or even
+
+        lw $t0, number        
+        andi $t1, $t0, 1     
+        beq $t1, $zero, even  
+        li $v0, 1             
+        move $a0, $t0         
+        syscall               
+        even:
+          li $v0, 4            
+          la $a0, even_msg     
+          syscall               
+          j end
+       end:
+         li $v0, 10           
+         syscall
+
+Explanation for above code
+
+lw $t0, number: This instruction loads the value stored at the memory address labeled number into register $t0.
+
+andi $t1, $t0, 1: This instruction performs a bitwise AND operation between the value in register $t0 and the immediate value 1, storing the result in register $t1.
+
+beq $t1, $zero, even: This instruction branches to the even label if the value in register $t1 is equal to zero (i.e., the number is even).
+
+li $v0, 1: This instruction loads the system call code 1 into register $v0, which is the code for printing an integer.
+
+move $a0, $t0: This instruction moves the value from register $t0 (which holds the number) into register $a0, which is the argument register for system calls.
+
+syscall: This instruction invokes the system call specified by the value in register $v0 (printing the number in this case).
+
+j end: This unconditional jump instruction jumps to the end label, skipping the even section of the code.
+
+even:: This line defines the even label.
+
+li $v0, 4: This instruction loads the system call code 4 into register $v0, which is the code for printing a string.
+
+la $a0, even_msg: This instruction loads the address of the null-terminated string even_msg into register $a0.
+
+syscall: This instruction invokes the system call specified by the value in register $v0 (printing the even message).
+
+j end: This unconditional jump instruction jumps to the end label to exit the program after printing the message.
+
+end:: This line defines the end label.
+
+li $v0, 10: This instruction loads the system call code 10 into register $v0, which is the code for exiting the program.
+
+syscall: This instruction invokes the system call specified by the value in register $v0 to exit the program.
 
 
 Real world Applications using Assembly language
