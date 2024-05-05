@@ -28,7 +28,6 @@ In this we are mainly focusing about the mips code
 
 What is MIPS assembly language?
 
-Some other examples of assembly languages include:
 
 RISC Architecture:
 
