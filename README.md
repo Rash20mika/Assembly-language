@@ -24,11 +24,24 @@ Now let us see few more mnemonics,
 
 Let us see few examples using these mnemonics in the instruction.
 
-ADD R2,R3,#10
+ ADD R2,R3,#10
 In this instruction adds the number 5 to the contents of register R3 and puts the result into register R2. The number sign is not the only way to denote the Immediate addressing mode. In some assembly languages, the Immediate addressing mode is indicated in the OP code mnemonic. For example, the previous Add instruction may be written as,
 
-ADDI R2,R3,10
+ ADDI R2,R3,10
 The suffix I in the mnemonic ADDI states that the second source operand is given in the Immediate addressing mode.
+
+ and $rd, $rs, $rt
+Performs a bitwise AND operation on the values in registers $rs and $rt, storing the result in register $rd.
+
+ or $rd, $rs, $rt
+Performs a bitwise OR operation on the values in registers $rs and $rt, storing the result in register $rd.
+
+ sw R1,R2
+Stores the value R1 into R2
+
+ lw R1,R2
+Load the word R2 in R1
+ 
 
 Let us see the simple mips program to sum the first 10 natural numbers.
         li $t0, 0
@@ -56,15 +69,25 @@ sw $t0, sum: Stores the final sum in the sum variable.
 
 
 Real world Applications using Assembly language
+
 Operating Systems
+
 Assembly language is often used in the development of operating systems, as it provides low-level access to the system's hardware and is capable of executing critical operations that are not possible with higher-level languages.
+
 Device Drivers
+
 Assembly language is used to develop device drivers, which are software components that allow a computer to interact with specific hardware devices.
+
 Embedded Systems
+
 Assembly language is widely used in the development of embedded systems, such as microcontrollers and other specialized devices that have limited processing power and memory.
+
 Performance-critical applications
+
 Assembly language can be used to optimize performance-critical sections of code in high-performance applications, such as video games, simulations, and scientific computing.
+
 Reverse Engineering
+
 Assembly language is often used in reverse engineering, as it provides a detailed understanding of the underlying machine code and can be used to analyze malware, debug software, and study the internal workings of operating systems and other software.
 
 Current Trends in the Assembly Language Industry
